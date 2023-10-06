@@ -1,0 +1,257 @@
+
+.sec1{
+  margin-top: 50px;
+  color: grey;
+}
+
+.sec1 .div1sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+#first1{
+  margin-left: 10px;
+}
+
+#first2{
+  margin-left: -50px;
+}
+
+.sec1 .div1sec1 .divimg{
+background-color: rgb(208, 203, 203);
+  width: 450px;
+  height: 230px;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+ .divimg img{
+   width: 300px;
+   height: 150px;
+   margin-top: 40px;
+   margin-left: 65px;
+}
+
+.sec1, .sec2 #h3{
+  text-align: center;
+  font-weight: 50;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.sec1 h3{
+  font-weight: 50;
+  color: black;
+}
+
+.sec1 p{
+  font-size: 14px;
+  padding: 10px;
+  color: rgb(123, 120, 120);
+}
+ 
+h4{
+
+  font-size: small;
+  font-weight: 100;
+  color: black;
+}
+.div1sec1 .text{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sec1 #first2 #i2{
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+  .sec1 #btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    padding: 5px;
+   background-color: white;
+   border: 1px solid grey;
+   border-radius: 5px;
+   color: grey;
+  }
+  
+  /* Section 2 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
+
+  .sec2 .divsec2{
+    margin-left: 221px;
+    margin-right: 221px;
+    color: white;
+    text-align: center;
+}
+
+  .sec2 .divsec2 .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+  }
+
+  .sec2 .div1 .div11{
+    background-color: grey;
+    width: 450px;
+    height: 350px;
+
+  }
+
+.sec2 .div1 .div11 h3,p{
+ position: relative;
+ top: 40%;
+  }
+
+  .sec2 .div1 .div11 p{
+    position: relative;
+    top: 50%;
+     }
+
+     /* Section 3 33333333333333333333333333333333333333333333333333333333333*/
+
+     .sec3 #h3{
+      text-align: center;
+      font-weight: 50;
+      color: black;
+      margin-top: 80px;
+      margin-bottom: 35px;
+    }
+    
+
+     .sec3 .divsec3{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 220px;
+      margin-right: 220px;
+      text-align: center;
+     }
+
+     .sec3 .divsec3 .first{
+        border: 1px solid rgb(201, 194, 194);
+        padding: 30px;
+        width: 300px;
+        height: 280px;
+     }
+       
+     .sec3 .divsec3 .first img{
+         width: 80px;
+         height: 80px;
+         position: relative;
+         right: 55px;
+         bottom: 30px;
+     }
+     .sec3 .divsec3 .first .divimg{
+      background-color: rgb(193, 190, 190);
+      border: 1px solid rgb(198, 193, 193);
+       border-radius: 50px;
+       width: 100px;
+       height: 100px;
+     }
+
+     .sec3 .divsec3 .first .para h4{
+      font-size: 18px;
+      padding-top: 27px;
+   }
+
+     .sec3 .divsec3 .first .para p{
+      font-size: 14px;
+      color: rgb(123, 120, 120);
+      font-family: 'Times New Roman', Times, serif;
+   }
+
+   .sec3 .first .para .p2,.divicon{
+    padding-top: 20px;
+ }
+
+.sec3 .first .divicon a{
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  }
+
+  .sec3 .first .divicon a:hover{
+    background-color:rgb(231, 228, 228);
+    color: white;
+    }
+
+    /* Section 4 */
+
+    .sec4{
+      margin-top: 150px;
+    }
+
+
+    .sec4 #h3{
+      text-align: center;
+      font-weight: 50;
+      margin-bottom: 35px;
+    }
+
+    .sec4 .divsec4{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 220px;
+      margin-right: 220px;
+      text-align: center;
+     }
+
+
+    .sec4 .divsec4 img{
+      width: 80px;
+      height: 80px;
+  }
+
+  .sec4 .divsec4 .firstsec4 p{
+    font-size: 15px;
+    padding-top: 20px;
+    color: rgb(123, 120, 120);
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+   .sec4 .divsec4 .firstsec4 h4{
+    padding-top: 15px;
+ }
+
+ .sec4 .div1sec4{
+  margin-top: 50px;
+  background-color: grey;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+ }
+
+ .sec4 .div1sec4 h3{
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ .sec4 .div1sec4 button{
+padding: 10px;
+border: 1px solid grey;
+border-radius: 5px;
+font-size: 15px;
+margin-bottom: 20px;
+}
