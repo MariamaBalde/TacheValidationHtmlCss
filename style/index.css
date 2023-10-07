@@ -284,9 +284,9 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  /* body {
   width: 300px;
-  }
+  } */
 /* Sec1 */
   .sec1 .div1sec1{
     display: flex;
@@ -354,12 +354,18 @@ margin-bottom: 20px;
   text-align: center;
  }
 
- /* .sec3 .divsec3 .first{
-    border: 1px solid rgb(201, 194, 194);
-    padding: 30px;
-    width: 300px;
-    height: 280px;
- }
+ .sec3 .divsec3 .first{
+  /* border: 1px solid rgb(201, 194, 194);
+  padding: 30px;*/
+  width: 180px;
+  height: 280px; 
+  margin-right: 20px;
+  /* margin-left: 2px; */
+}
+
+
+
+ /*
    
  .sec3 .divsec3 .first img{
      width: 80px;
