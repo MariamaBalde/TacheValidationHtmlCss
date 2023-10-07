@@ -255,3 +255,152 @@ border-radius: 5px;
 font-size: 15px;
 margin-bottom: 20px;
 }
+
+/* Sesction 5 */
+
+.sec5{
+  margin-top: 50px;
+}
+
+.sec5 h3{
+  text-align: center;
+  font-weight: 50;
+  margin-bottom: 35px;
+}
+
+.sec5 .divsec5{
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+}
+
+.sec5 .divsec5 div{
+ background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+  width: 300px;
+  }
+/* Sec1 */
+  .sec1 .div1sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#first1{
+  margin-right: 120px;
+}
+
+#first2{
+  margin-right: 50px;
+  width: 300px;
+}
+
+.sec1 .div1sec1 .divimg{
+    width: 260px;
+    height: 200px;
+  }
+  
+   .divimg img{
+     width: 200px;
+     height: 100px;
+     margin-top: 40px;
+     margin-left: 35px;
+  }
+
+  /* Sec2 */
+
+  .sec2 .divsec2 .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+  }
+
+  .sec2 .div1 .div11{
+    width: 250px;
+    height: 150px;
+  }
+
+  .sec2 .divsec2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Sec3 */
+
+.sec3 .divsec3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 220px;
+  margin-right: 220px;
+  text-align: center; */
+ }
+
+ /* .sec3 .divsec3 .first{
+    border: 1px solid rgb(201, 194, 194);
+    padding: 30px;
+    width: 300px;
+    height: 280px;
+ }
+   
+ .sec3 .divsec3 .first img{
+     width: 80px;
+     height: 80px;
+     position: relative;
+     right: 55px;
+     bottom: 30px;
+ }
+ .sec3 .divsec3 .first .divimg{
+  background-color: rgb(193, 190, 190);
+  border: 1px solid rgb(198, 193, 193);
+   border-radius: 50px;
+   width: 100px;
+   height: 100px;
+ } */
+
+ /* section 4 */
+
+ .sec4 .divsec4{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 220px;
+  margin-right: 220px; */
+  text-align: center;
+ }
+
+
+/* .sec4 .divsec4 img{
+  width: 80px;
+  height: 80px;
+} */
+
+
+/* Section 5 */
+
+.sec5 .divsec5{
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 220px;
+  margin-right: 220px; */
+  text-align: center;
+}
+}
