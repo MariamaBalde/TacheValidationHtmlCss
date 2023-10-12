@@ -1,0 +1,57 @@
+
+.sec{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.sec .divitems{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.sec .divitems .divimg{
+    background-color: rgb(220, 218, 218);
+    border: 1px solid rgb(220, 218, 218);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.sec .divitems img{
+   width: 100px;
+   height: 70px;
+}
+
+.sec .divitems .divpara{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sec .divitems .divpara h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(88, 87, 87);
+}
+
+.sec .divitems .divpara #para1{
+    position: relative;
+    right: 115px;
+}
+
+ .sec .divitems .divpara #para2{
+    position: relative;
+    right: 96px;
+}
+
+.sec .divitems .divpara #para3{
+    position: relative;
+    right: 93px;
+} 

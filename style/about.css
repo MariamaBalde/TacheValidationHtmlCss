@@ -1,0 +1,290 @@
+.sec1{
+    width: 50%;
+    padding-top: 55px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.sec1 .para{
+    font-size: 12px;
+    color: grey;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.sec1 .para #p1{
+ padding-bottom: 30px;
+}
+
+.sec1 .para #p2{
+    padding-bottom: 50px;
+}
+
+.sec1 .divimg{
+   border: 1px solid rgb(226, 218, 218);
+   background-color:rgb(226, 218, 218) ;
+   height: 370px;
+   margin-left: -50px;
+   margin-right: -50px;
+}
+
+.sec1 .divimg img{
+     position: relative;
+     top: 80px;
+ }
+
+ /*-------------------------------------------------------------Section 2 --------------------------------------------------------- */
+
+ .sec2{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    font-weight: 100px;
+ }
+
+ .sec2 .divsec2{
+   padding-bottom: 30px;
+   font-size: 13px;
+ }
+
+ .sec2 .divsec2 h3 , .divsec22 h3{
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+
+ .sec2 .divsec22{
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+    font-size: 13px;
+ }
+
+ .sec2 .divsec22 .div1sec22 div{
+ padding-right: 430px;
+ }
+
+ .sec2 .divsec22 .div2sec22{
+   position: relative;
+   right: 320px;
+ }
+
+ .sec2 .divsec2 p,.divsec22 p{
+    padding-bottom: 5px;
+  }
+
+.sec2 .divsec22 .div1para{
+    padding-bottom: 20px;
+}  
+
+/* ---------------------------------------------------Section 3 --------------------------------------------------------------------- */
+
+.sec3{
+    width: 50%;
+    padding-top: 55px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin: auto;  
+}
+
+.sec3 h1{
+    font-size: 27px;
+    font-weight: 100;
+    padding-bottom: 35px;
+}
+
+.sec3 .divimg{
+    border: 1px solid rgb(226, 218, 218);
+    background-color:rgb(226, 218, 218) ;
+    height: 450px;
+    margin-left: -130px;
+    margin-right: -130px;
+ }
+ 
+ .sec3 .divimg img{
+      position: relative;
+      top: 110px;
+  }
+
+  /* divsecondsec3 */
+
+   .sec3 .secondsec3 , .fourthsec3 , .fifthsec3{
+    margin-top:100px;
+    margin-bottom: 100px;
+   }    
+
+
+  .sec3 .divsecondsec3 ,.div1thirdsec3 , .divfourthsec3 , .divfifthsec3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -70px;
+    margin-right: -70px;
+  }
+
+  .sec3 .divsecondsec3 .divfirst , .divfourthsec3 .divbgpara{
+    padding-top: 20px;
+    padding-bottom: 40px;
+     padding-left: 30px;
+     padding-right: 30px;
+    border: 1px solid rgb(176, 174, 174);
+    width: 600px;
+    height: 270px;
+}
+
+.sec3 .divsecondsec3 .divfirst .divimgsecondsec3{
+    background-color: rgb(226, 223, 223);
+      border: 1px solid rgb(226, 223, 223);
+      border-radius: 50px;
+      width:90px;
+      height: 90px ;
+}
+
+.sec3 .divsecondsec3 .divfirst .divimgsecondsec3 img{
+     width: 55px;
+     height: 50px;
+     position: relative;
+     top: 20px;
+}
+
+.sec3 .divsecondsec3 .divfirst .divpara{
+  padding-top: 20px;
+  padding-bottom:20px ;
+}
+
+.sec3 .divsecondsec3 .divfirst .divpara h3{
+    padding-bottom:3px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .sec3 .divsecondsec3 .divfirst .divpara p , .divpara1 p{
+   color: grey;
+   font-size: 12px;
+  }
+
+  .sec3 .divsecondsec3 .divfirst .divpara1 .divicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+   }
+
+   .sec3 .divsecondsec3 .divfirst .divpara1 .divicon a{
+    border: 1px solid grey;
+    border-radius: 50px;
+    width:30px;
+    height: 30px ;
+   }
+
+   .sec3 .divsecondsec3 .divfirst .divpara1 .divicon a:hover{
+   background-color: grey;
+   }
+
+   .sec3 .divsecondsec3 .divfirst .divpara1 .divicon a i{
+   position: relative;
+   top: 5px;
+   color: #707275;
+   }
+
+   .sec3 .divsecondsec3 .divfirst .divpara1 .divicon a i:hover{
+    color: white;
+    }
+
+    /* thirdsec3 */
+
+    .sec3 .thirdsec3 .div1thirdsec3 .firsthirdsec3{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+       width: 400px;
+       /* height: 100px; */
+       text-align: center;
+    }
+
+    .sec3 .thirdsec3 .div1thirdsec3 .firsthirdsec3 h3{
+      padding-top: 30px;
+    }
+
+    .sec3 .thirdsec3 .div1thirdsec3 .firsthirdsec3 p{
+        padding-top: 15px;
+        padding-bottom: 30px;
+      }
+
+      /* fourthsec3 */
+
+  .sec3 .fourthsec3 .divbgpara{
+    background-color: grey;
+  }
+
+  .sec3 .fourthsec3  #gris{
+    background-color: rgb(175, 172, 172);
+    border: 1px solid rgb(175, 172, 172);
+  }
+
+  .sec3 .fourthsec3  #gris1{
+    background-color: rgb(206, 202, 202);
+    border: 1px solid rgb(206, 202, 202) ;
+  }
+
+  .sec3 .fourthsec3 .divbgpara p{
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+  }
+
+  /* fifthsec3 */
+
+  .sec3 .fifthsec3 .divfifthsec3 img{
+   width: 130px;
+   height: 90px;
+  }
+
+  .sec3 .fifthsec3 .divfifthsec3 .divpa ,.divsixthsec3 .divpa{
+    font-size: 12px;
+    color: grey;
+  }
+
+  .sec3 .fifthsec3 .divfifthsec3 div h3{
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 20px;
+  }
+
+  /* sixthsec3 */
+   
+  .sec3 .sixthsec3 button{
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 130px;
+  }
+
+  .sec3 .sixthsec3 button:hover{
+    background-color: white;
+    color: rgb(31, 31, 31);
+    border: none;
+  }
+
+  .sec3 .sixthsec3 .divsixthsec3 h1{
+    font-size: 23px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.sec3  .sixthsec3{
+  margin-top:200px;
+  margin-bottom: -80px;
+ } 
+
+ .sec3 .sixthsec3 .divsixthsec3 .divpa p{
+ padding-bottom: 5px;
+}

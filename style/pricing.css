@@ -1,0 +1,160 @@
+main{
+    padding-top: 80px;
+}
+
+.sec1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+
+
+.sec2 ,.sec3 , .sec4{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .sec2 h1 ,.sec3 h1 , .sec4 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 35px;
+  }
+  
+  .sec2 .divsec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    text-align: center;
+  }
+  
+  .sec2 .divsec5 .firstdivsec5{
+   background-color: rgb(206, 199, 199);
+  }
+  
+  .sec2 .divsec5 #black{
+    background-color: black;
+    color: white;
+   }
+  
+   .sec2 .divsec5 #black  h4{
+   color: white;
+  }
+  
+  .sec2 .divsec5 #black  p{
+    color: rgb(210, 209, 209);
+   }
+  
+  .sec2 .divsec5 .firstdivsec5 h4{
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .sec2 .firstdivsec5 div{
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+  
+  .sec2  .firstdivsec5 div p{
+    padding-bottom: 13px;
+    color: grey;
+  }
+  
+  .sec2  .firstdivsec5 div p strong{
+    color: black;
+  }
+  
+  .sec2  #black div p strong{
+      color: white;
+    }
+  
+  .sec2 .divsec5 .firstdivsec5{
+  width: 400px;
+  height: 250px;
+  }
+  
+  .sec2 .divsec5 #black{
+    width: 400px;
+    height: 270px;
+    color: white;
+    }
+
+ .sec3 div{
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+ }  
+ 
+ .sec3 div p strong{
+    color: rgb(79, 78, 78);
+ }  
+ 
+ /*  */
+
+ .sec4 .secondsec6 .div1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 50px;
+    margin-left:220px ;
+    margin-right: 220px;
+  }
+
+  .sec4 .secondsec6 .div1 .div11{
+   background-color: rgb(90, 89, 89);
+    width: 300px;
+    height: 230px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .sec4 .secondsec6 .div1 .div11 h4{
+    color: white;
+    padding-bottom: 15px;
+   }
+
+   .sec4 .secondsec6 .div1 .div11 div{
+      font-size: 16px;
+      font-weight: 50;
+      padding-top: 30px;
+   }
+   
+
+   .sec4 .secondsec6 .div1 .div11 div p{
+    padding-top: 7px;
+ }
+
+
+ .sec5{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+ }
+
+ .sec5 button{
+    margin-top: 50px;
+    background-color: white;
+    color: grey;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+ }
+
+ .sec5 button:hover{
+    background-color: rgb(97, 96, 96);
+    color: white;
+    border: 1px solid rgb(97, 96, 96);
+    border-radius: 5px;
+ }

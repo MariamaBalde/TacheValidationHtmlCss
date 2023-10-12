@@ -1,0 +1,85 @@
+
+ .sec1{
+    margin-top: 70px;
+    /* margin-bottom: 100px; */
+    margin-left:200px ;
+    margin-right: 200px;
+ }
+
+ .sec1 .div1sec1{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+ }
+
+  .sec1 .div1sec1 .div11{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .sec1 .div1sec1 .div11 #one{
+  margin-top: 15px;
+ }
+
+ .sec1 .div1sec1 .div11 div .divimg{
+    background-color: rgb(220, 216, 216);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+ .sec1 .div1sec1 .div11 div .divimg img{
+   width: 100px;
+   height: 70px;
+ }
+
+ .sec1 .div1sec1 .divpara1 .para1{
+ padding-bottom: 20px;
+  }
+
+  .sec1 .div1sec1 .divpara1 .para1 h1{
+    font-size: 17px;
+  padding-bottom: 10px;
+     }
+
+     .sec1 .div1sec1 .divpara1{
+        position: relative;
+        top: -15px;
+         }
+ 
+     .sec1 .div1sec1 .divpara1 .para1 p , .divpara1  p{
+        font-size: 14px;
+        color: grey;
+   }
+
+.sec5{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+ }
+
+ .sec5 button{
+    margin-top: 50px;
+    background-color: white;
+    color: grey;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+ }
+
+ .sec5 button:hover{
+    background-color: rgb(97, 96, 96);
+    color: white;
+    border: 1px solid rgb(97, 96, 96);
+    border-radius: 5px;
+ }

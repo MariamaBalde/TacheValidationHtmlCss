@@ -6,10 +6,7 @@
 }
 
 header{
-background-color: grey;
 text-align: center;
-padding-top: 30px;
-color: white;
 }
 
 nav{
@@ -17,23 +14,36 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: black;
+    background-color: rgb(218, 213, 213);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 nav .divnav1{
     display: flex;
     flex-direction: row;
     gap: 45px;
+    font-size: 12px;
+}
+
+nav h1{
+  font-size: 25px;
+  font-weight: 100;
 }
 
 nav a{
   text-decoration: none;
-  color: white;
+  color: black;
 
 }
 nav .divnav2{
     display: flex;
     flex-direction: row;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 nav .divnav2 #i1{
@@ -48,30 +58,128 @@ nav #i1:hover{
     border: 1px solid gray;
   }
 
-  button:hover{
-    background-color: rgb(86, 84, 84);
-    border: 1px solid gray;
-    color: white;
-  }
-
   nav i:hover{
  opacity: 0.5;
     }
 
 nav #i1 i{
-  margin-top: 5px;
+padding-top: 10px;
   }
 
-header div h1{
-    margin-top: 280px;
+header #divheader{
+   background-color: grey;
+   color: white;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-size: 16px;
 }
-header button{
-    margin-top: 60px;
-    width: 180px;
-    height: 50px;
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    border-radius: 5px;
-    margin-bottom: 200px;
-}
+
+
+     /* Footer ----------------------------------------------------------------------------------------------- */
+     footer{
+      background-color: rgb(36, 35, 35);
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 12px;
+     }
+
+     footer .firstfooter .div1{
+      display: flex;
+      flex-direction: row;
+      padding-left: 250px;
+      padding-right: 250px;
+     }
+
+     footer .firstfooter .div1 div h3{
+       padding-bottom: 30px;
+     }
+
+     footer .firstfooter .div1 div .div11 p{
+      padding-bottom: 5px;
+    }
+
+    .firstfooter .div1 .div12 p ,.div13  p{
+      padding-bottom: 15px;
+      color: white;
+    }
+
+    footer .firstfooter .div1 .div12 p a ,.div13   p a{
+      text-decoration: none;
+      color: white;
+    }
+
+    footer .firstfooter .div1 .div13{
+      position: relative;
+      bottom: 15px;
+    }
+
+    footer .firstfooter .div1 .div14{
+      position: relative;
+      bottom: 30px;
+    }
+
+    footer .firstfooter .div1 .div14 #p1{
+      position: relative;
+     left: 40px;
+     bottom: 10px;
+    }
+
+    footer .firstfooter .div1 .div14 .div144{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    footer .firstfooter .div1 .div14 .div144 p{
+     border: 1px solid white;
+     border-radius: 50%;
+     width: 25px;
+     height: 25px;
+    }
+
+    footer .firstfooter .div1 .div14 .div144 p:hover{
+     background-color: white;
+     }
+
+     footer .firstfooter .div1 .div14 .div144 p i:hover{
+       background-color: black;
+     }
+
+    footer .firstfooter .div1 .div14 .div144 p i{
+      position:relative ;
+      left: 8px;
+      top: 5px;
+     }
+
+     footer .div1 .div15{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+     }
+
+     footer .div1 .div15 input,button{
+       width: 180px;
+       height: 35px;
+       background-color: rgb(43, 43, 43);
+       border: 1px solid rgb(43, 43, 43);
+       border-radius: 3px;
+       padding-left: 10px;
+       font-size: 12px;
+     }
+
+     footer .div1 .div15 button{
+      width: 195px;
+      height: 37px;
+      background-color: grey;
+      color: white;
+    }
+
+     footer .secondfooter{
+      padding-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+     }

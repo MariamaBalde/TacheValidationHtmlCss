@@ -1,0 +1,104 @@
+
+.sec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    width: 50%;
+}
+
+.sec .divsec{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .divsec .div2sec{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+
+/* 
+.sec .fourthsec7{
+    background-color: grey;
+    margin-top: 80px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 250px;
+   padding-right: 250px;
+   }
+  
+   .sec .fourthsec7 .divfourthsec7{
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+   border-radius: 3px;
+    color: grey;
+   }
+  
+   .sec .fourthsec7 .divfourthsec7 .paragraph{
+    position: relative;
+    bottom: 50px;
+   }
+  
+   .sec .fourthsec7 .divfourthsec7 p{
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+   }
+  
+   .sec .fourthsec7 .divfourthsec7 h3{
+     color: #000;
+   }
+  
+   .sec .fourthsec7 form{
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
+   }
+  
+   .sec .fourthsec7 form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+   }
+  
+   .sec .fourthsec7 form div input{
+  width: 250px;
+  height: 33px;
+  background-color: rgb(218, 217, 217);
+  border: 1px solid rgb(218, 217, 217);
+  border-radius: 5px;
+   }
+  
+   .sec .fourthsec7 form div label{
+       padding-right: 200px;
+     }
+  
+     .sec .fourthsec7 form #num label{
+      padding-right: 150px;
+    }
+   .sec .fourthsec7 form div button{
+    width: 250px;
+    height: 33px;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+     }
+  
+     .sec .fourthsec7 form div button:hover{
+      background-color: black;
+       } */
