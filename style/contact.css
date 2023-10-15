@@ -2,93 +2,115 @@
 .sec{
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
-    /* margin-right: 100px;
-    margin-left: 100px; */
+    /* text-align: center; */
+   
     width: 50%;
 }
 
 .sec .divsec{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 2px;
     justify-content: center;
     align-items: center;
+}
+
+.sec .divsec #div1{
+position: relative;
+bottom: 120px;
+padding-right: 30px;
 }
 
 .sec .divsec .div2sec{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     justify-content:center;
     align-items: center;
 }
 
+.sec .divsec .div1sec{
+ margin-bottom: 30px;
+}
+
+.sec .divsec .div1sec h1{
+  padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.sec .divsec .div1sec p{
+  font-size: 16px;
+  color: grey;
+  width: 400px;
+}
+
+.sec .divsec .div2sec div h3{
+  font-size: 20px;
+  font-weight: 100;
+  position: relative;
+  bottom: 40px;
+  right: 15px;
+  /* position: relative;
+  right: 120px;
+  top: 25px; */
+}
+
+.sec .divsec .div2sec div p{
+  font-size: 20px;
+  color: grey;
+}
 
 
-
-/* 
 .sec .fourthsec7{
-    background-color: grey;
-    margin-top: 80px;
-   padding-top: 50px;
-   padding-bottom: 50px;
-   padding-left: 250px;
-   padding-right: 250px;
+    background-color: rgb(240, 238, 238);
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 60px;
+   padding-right: 60px;
    }
   
-   .sec .fourthsec7 .divfourthsec7{
-    width: 50%;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-   border-radius: 3px;
-    color: grey;
-   }
-  
-   .sec .fourthsec7 .divfourthsec7 .paragraph{
-    position: relative;
-    bottom: 50px;
-   }
-  
-   .sec .fourthsec7 .divfourthsec7 p{
-    position: relative;
-    bottom: 20px;
-    font-size: 12px;
-   }
-  
-   .sec .fourthsec7 .divfourthsec7 h3{
-     color: #000;
-   }
-  
-   .sec .fourthsec7 form{
-    font-size: 15px;
-    position: relative;
-    bottom: 30px;
-   }
   
    .sec .fourthsec7 form div{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-bottom: 15px;
    }
   
    .sec .fourthsec7 form div input{
-  width: 250px;
-  height: 33px;
+  width: 270px;
+  height: 30px;
   background-color: rgb(218, 217, 217);
   border: 1px solid rgb(218, 217, 217);
-  border-radius: 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+
    }
+
+   .sec .fourthsec7 form div textarea{
+    width: 270px;
+    height: 100px;
+    background-color: rgb(218, 217, 217);
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 3px;
+     }
   
    .sec .fourthsec7 form div label{
-       padding-right: 200px;
+       padding-right: 210px;
+       font-size: 11px;
+       color: rgb(140, 138, 138);
+       position: relative;
+       top: 32px;
      }
   
      .sec .fourthsec7 form #num label{
+      padding-right: 162px;
+    }
+
+    .sec .fourthsec7 form #text label{
       padding-right: 150px;
     }
+
    .sec .fourthsec7 form div button{
     width: 250px;
     height: 33px;
@@ -97,8 +119,9 @@
     border-radius: 5px;
     color: white;
     font-size: 12px;
+    margin-top: 30px;
      }
   
      .sec .fourthsec7 form div button:hover{
       background-color: black;
-       } */
+       }
