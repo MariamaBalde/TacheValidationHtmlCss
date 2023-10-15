@@ -826,12 +826,10 @@ border-radius: 5px;
   justify-content: center;
   align-items: center;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 5px;
   margin-bottom: 100px;
   /* padding-left: 20px;
   padding-right: -30px; */
-  padding-left: 20px;
-  padding-right: -30px;
 }
 
   .sec1 .div1sec1 .divimg{
