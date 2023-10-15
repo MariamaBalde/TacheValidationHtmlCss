@@ -94,13 +94,13 @@ header{
     margin-bottom: 100px;
 }
 
-#first1{
+/* #first1{
   margin-left: 10px;
 }
 
 #first2{
   margin-left: -50px;
-}
+} */
 
 .sec1 .div1sec1 .divimg{
 background-color: rgb(208, 203, 203);
@@ -819,15 +819,18 @@ border-radius: 5px;
      }
 
 @media screen and (max-width: 600px) {
-  /* body {
-  width: 100%;
+  /* main {
+  width: 50%;
   } */
 /* Sec1 */
-  .sec1 .div1sec1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sec1 .div1sec1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
 }
 
 /* #first1{
